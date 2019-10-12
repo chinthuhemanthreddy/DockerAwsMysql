@@ -3,8 +3,8 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "arn:aws:ecs:us-east-1:175937889706:task-definition/aws-hello-world-rest-api:1"
+        TaskDefinition: "arn:aws:ecs:us-east-1:175937889706:task-definition/hemanthsfirstdocker:2"
         LoadBalancerInfo:
-          ContainerName: "aws-hello-world-rest-api"
+          ContainerName: "firstdockerproject"
           ContainerPort: "80"
         PlatformVersion: "LATEST"
