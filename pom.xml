@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.hemanth.docker</groupId>
-	<artifactId>DockerAwsMysql</artifactId>
+	<artifactId>dockerawsmysql</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>DockerAwsMysql</name>
 	<description>microservice boot docker aws mysql</description>
