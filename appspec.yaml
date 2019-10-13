@@ -3,7 +3,7 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "arn:aws:ecs:us-east-1:175937889706:task-definition/dockerwithmysql:2"
+        TaskDefinition: "arn:aws:ecs:us-east-1:175937889706:task-definition/dockerwithmysql:3"
         LoadBalancerInfo:
           ContainerName: "dockerwithmysql"
           ContainerPort: "80"
