@@ -3,8 +3,8 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "arn:aws:ecs:us-east-1:175937889706:task-definition/hemanthsfirstdocker:2"
+        TaskDefinition: "arn:aws:ecs:us-east-1:175937889706:task-definition/dockerwithmysql:2"
         LoadBalancerInfo:
-          ContainerName: "firstdockerproject"
+          ContainerName: "dockerwithmysql"
           ContainerPort: "80"
         PlatformVersion: "LATEST"
